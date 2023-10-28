@@ -1,8 +1,6 @@
 from dotenv import load_dotenv
 import streamlit as st
 import datetime
-
-from langchain.callbacks.base import BaseCallbackHandler
 from utilities.utils import (
     generate_article
 )
