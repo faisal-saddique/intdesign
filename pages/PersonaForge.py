@@ -20,6 +20,10 @@ st.title("PersonaForge - Craft Your Writing Style 🧙‍♂️📖")
 # Load environment variables from .env file
 load_dotenv()
 
+with st.sidebar:
+    st.subheader("About")
+    st.markdown("Welcome to PersonaForge, your gateway to crafting a distinctive writing style. Whether you're an aspiring author or a seasoned wordsmith, our platform empowers you to emulate the essence of your favorite writers. Unleash your creativity, harness their genius, and embark on a literary journey like no other. Join us as we help you breathe life into your words and turn your writing dreams into reality. Explore the magic of language and discover the art of storytelling at PersonaForge.")
+
 # Input fields and labels
 person_name = st.text_input(
     "Enter the name of the person you want to emulate:")
